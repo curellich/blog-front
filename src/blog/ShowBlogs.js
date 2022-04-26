@@ -2,7 +2,8 @@ import axios from "axios";
 import {useState, useEffect} from "react";
 import {Link} from "react-router-dom";
 
-const URI = "http://localhost:8000/Blogs/";
+// const URI = "http://localhost:8000/Blogs/";
+const URI = 'https://blog-server-express.herokuapp.com/Blogs/';
 
 const ComShowBlogs = () => {
     const [blogs, setBlogs] = useState([{}]);

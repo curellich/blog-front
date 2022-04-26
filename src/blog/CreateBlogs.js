@@ -2,7 +2,8 @@ import axios from "axios";
 import {useState} from "react";
 import {useNavigate} from 'react-router-dom';
 
-const URI = 'http://localhost:8000/Blogs/';
+// const URI = 'http://localhost:8000/Blogs/';
+const URI = 'https://blog-server-express.herokuapp.com/Blogs/';
 
 const CompCreateBlog = () => {
     const [title, setTitle] = useState('');
