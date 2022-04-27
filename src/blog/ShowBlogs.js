@@ -42,15 +42,15 @@ const ComShowBlogs = () => {
                 </thead>
                 <tbody>
                 {blogs.map((blog) => (
-                    <tr key={blog.id}>
+                    <tr key={blog.id + "tr"}>
                         <td>{blog.id}</td>
                         <td>{blog.title}</td>
                         <td>{blog.content}</td>
                         <td>
-                            <Link to={`/edit/${blog.id}`} className="btn btn-info m-1">
+                            <Link  to={`/edit/${blog.id}`} className="btn btn-info m-1">
                                 <i className="fa-regular fa-pen-to-square"/>
                             </Link>
-                            <button className="btn btn-danger m-1" onClick={() => deleteBlog(blog.id)}>
+                            <button  className="btn btn-danger m-1" onClick={() => deleteBlog(blog.id)}>
                                 <i className="fa-regular fa-trash-can"/>
                             </button>
                         </td>
