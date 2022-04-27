@@ -1,6 +1,6 @@
 {
   "name": "reactfront",
-  "hombepage": "http://curellich.github.io/blog-front/",
+  "hombepage": "https://curellich.github.io/blog-front/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
