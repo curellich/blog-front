@@ -14,7 +14,7 @@ const CompEditBlog = () => {
     //procedimiento para actualizar
     const update = async (e) => {
         e.preventDefault();
-        await axios.put(URI + id, {
+         axios.put(URI + id, {
             title: title,
             content: content
         })
@@ -47,7 +47,7 @@ const CompEditBlog = () => {
 
                 <div className="mb-3">
                     <label className="form-label">Content</label>
-                    <textarea
+                    <textarea type={"text"}
                               value={content}
                               onChange={(e) => setContent(e.target.value)}
                               className='form-control'
