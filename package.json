@@ -1,6 +1,6 @@
 {
-  "name": "react-front",
-  "homepage": "https://curellich.github.io/react-front/",
+  "name": "blog-front",
+  "homepage": "https://curellich.github.io/blog-front/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
